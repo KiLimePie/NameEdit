@@ -1,4 +1,4 @@
-f=open("name.txt", "r+")
+f=open("names.txt", "r+")
 
 count=1
 try: 
@@ -13,7 +13,7 @@ try:
     third=(fname+lname[0])
     fourth=(fname+"."+lname)
     
-    with open("NewName.txt", 'a+') as b:
+    with open("NewNames.txt", 'a+') as b:
       b.write(f"""Name #{count}
 
 {first}
