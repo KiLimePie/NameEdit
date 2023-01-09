@@ -1,17 +1,17 @@
 # name-formatter
 
-This python script reads a file of names and reformats them in different ways. The reformatted names are written to a new file.
+This python script reads a file of names and reformats them in different ways. The reformatted names are written to a new file. Additionally contains a bash script that produces the same formats.
 
 ## Prerequisites
 
-* Python 3.6 or higher
+* Python 3.6 or higher or a Unix-based operating system (e.g. Linux, macOS)
 
 ## Getting Started
 
 1.  Clone or download this repository
 2.  Navigate to the directory where you cloned or downloaded the repository
 3.  Make sure that the names.txt file is in the same directory as the script
-4.  Run the script using python name-formatter.py
+4.  Run the script using 'python name-formatter.py' or 'bash name-formatter.sh'
 
 ## Input File
 
