@@ -10,8 +10,8 @@ try:
     
     first=(fname + lname)
     second=(fname[0] + lname)
-    third=(fname+lname[0])
-    fourth=(fname+"."+lname)
+    third=(fname + lname[0])
+    fourth=(fname + "." + lname)
     
     with open("NewNames.txt", 'a+') as b:
       b.write(f"""Name #{count}
